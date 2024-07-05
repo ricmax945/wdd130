@@ -1,0 +1,32 @@
+.callout {
+	width: 400px;
+    margin: 10px;
+    border: 1px whitesmoke;
+    padding: 10px;
+    background-color: #247;
+    color: #fff;
+    font-style: oblique;
+}
+
+.callout img {
+    float: right;
+    margin: 10px;
+    border: 6px rgb(50, 212, 77);
+    padding: 10px;
+    background-color: rgb(147, 69, 69);
+    width: 100px;
+    height: auto;
+}
+
+blockquote {
+	margin: 2px;
+}
+
+cite {
+	display: block;
+    border-top: 1px dotted white;
+    padding-top: 3px;
+    text-align: right;
+    font-size: smaller;
+    font-style: oblique;
+}
