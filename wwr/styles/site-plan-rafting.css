@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+body{
+    font-family: var(Roboto);
+    max-width: 960px;
+    padding: 20px;
+}
+:root{
+    --primary-color: #68C3D4;
+    --secondary-color: #568EA3;
+    --accent-color1: #FFD5C2;
+    --accent-color2: #F28F3B;
+
+    --heading-font: 'Roboto', sans-serif;
+    --OpenSans: 'Open Sans', sans-serif;
+
+    --nav-background-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #FFD5C2;
+    --nav-hover-background-color: #444;
+}
+
+body{
+    font-family: var(--OpenSans);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+p{
+    padding: 5px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    padding: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
