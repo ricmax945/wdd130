@@ -7,13 +7,13 @@ body{
     padding: 20px;
 }
 :root{
-    --primary-color: #68C3D4;
-    --secondary-color: #568EA3;
-    --accent-color1: #FFD5C2;
-    --accent-color2: #F28F3B;
+    --primary-color: #568EA3;
+    --secondary-color: #68C3D4;
+    --accent1-color: #FFD5C2;
+    --accent2-color: #F28F3B;
 
     --heading-font: 'Roboto', sans-serif;
-    --OpenSans: 'Open Sans', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
 
     --nav-background-color: #333;
     --nav-link-color: #fff;
@@ -22,7 +22,7 @@ body{
 }
 
 body{
-    font-family: var(--OpenSans);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -34,11 +34,11 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     padding: 10px;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 p{
-    padding: 5px;
+    padding: 20px;
 }
 
 nav{
