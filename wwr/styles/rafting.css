@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+:root{
+    --primary-color: #568EA3;
+    --secondary-color: #68C3D4;
+    --accent1-color: #FFD5C2;
+    --accent2-color: #F28F3B;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #FFD5C2;
+    --nav-hover-background-color: #444;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero div{
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1, article{
+    position: absolute;
+}
+ 
+.social-media-links a {
+    text-decoration: none;
+}
+
+.hero img{
+    display: block; 
+    width: 100%; 
+    height: auto;
+}
+
+article img{
+    float: left;
+    opacity: 0.5;
+    width: 50%;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+article img {
+    flex-shrink: 0;
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+article p {
+    flex-grow: 1;
+}
+
+
