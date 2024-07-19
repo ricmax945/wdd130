@@ -86,13 +86,13 @@ h1{
     margin: 1rem;
     align-items: center;
 }
-
+/*
 header, .grid, footer{
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
 }
-
+*/
 .grid{
     display: grid;
     align-items: center;
