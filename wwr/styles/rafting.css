@@ -41,7 +41,7 @@ h1, article{
 
 .hero img{
     display: block; 
-    width: 100%; 
+    width: 50%; 
     height: auto;
 }
 
@@ -66,5 +66,64 @@ article img {
 article p {
     flex-grow: 1;
 }
+
+header{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 420% 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 100px;
+}
+
+nav{
+    text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--primary-color);
+	padding: 20px;
+	text-decoration: none;
+    font-family: var(--heading-font);
+}
+
+.navigation a:hover {
+	color: var(--accent2-color);
+	font-weight: 700;
+	text-decoration: underline;
+    font-family: var(--heading-font)
+}
+
+section p{
+    margin: 1rem;
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--nav-link-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.body_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.001em;
+    align-items: center;
+}
+
 
 
