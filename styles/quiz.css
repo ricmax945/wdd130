@@ -1,0 +1,48 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0rem;
+    padding: 0;
+}
+header{
+    background-color: #004068;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    margin: 4rem 13rem;
+    padding: 3rem;
+}
+label{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #333;
+    background: #f4f4f4;
+}
+input, select, textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+button{
+    background-color: #333; 
+    color: #fff;
+    border-radius: 7px;
+    padding: 0.7rem;
+    font-size: large;
+}
+button:hover{
+    background-color: #004068;
+}
+button:enabled{
+    cursor: pointer;
+}
+input[type="number"]{
+    vertical-align: bottom;
+    font-size: 1.7rem;
+}

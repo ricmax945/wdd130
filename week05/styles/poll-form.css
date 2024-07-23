@@ -99,7 +99,9 @@ footer{
     grid-template-columns: 1fr 2fr;
 }
 
-
+.column3{
+    border: 1px solid #000;
+}
 
 
 
