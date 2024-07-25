@@ -14,6 +14,8 @@
     --nav-link-color: #fff;
     --nav-hover-link-color: #FFD5C2;
     --nav-hover-background-color: #444;
+
+    --background-color: #daebf2;
 }
 body{
     font-family: var(--paragraph-font);
@@ -85,6 +87,7 @@ nav{
 .navigation {
 	display: flex;
 	list-style: none;
+    font-size: 1.5rem;
 }
 
 .navigation li {
@@ -203,6 +206,108 @@ input[type="checkbox"]{
 input[type="chekbox"]:hover{
     background-color: var(--accent2-color);
 }
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0em;
+    align-items: center;
+    padding: 0rem 0rem 0rem 2rem;
+    margin: 1rem 0rem;
+    background-color: var(--background-color);
+}
+
+.contact a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0.7rem 0.5rem 0.7rem 0.4rem;
+    max-width: 0px;
+    background-color: #568EA3;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact a:hover{
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
+.contact p{
+    padding: 0.5rem;
+}
+.trips h2{
+    font-weight: 700;
+    padding: 0.5rem 0rem 0rem 0.5rem;
+}
+.trip1{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 1em;
+    align-items: center;
+    padding: 0rem 1.2rem 0rem 0rem;
+    margin: 0rem 0rem;
+    background-color: var(--background-color);
+}
+
+.trip2{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    padding: 0rem 0rem 0rem 1.2rem;
+    margin: 0rem 0rem 0rem 0rem;
+    background-color: var(--accent1-color);
+}
+
+.trip3{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 1em;
+    align-items: center;
+    padding: 0rem 1.2rem 0rem 0rem;
+    margin: 0rem 0rem;
+    background-color: var(--background-color);
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0em auto 3em auto;
+    border: 0.5px solid #000000;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+thead{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.category{
+    background-color: var(--accent1-color);
+    font-weight: 700;
+}
+
+.table_title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.2em;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
