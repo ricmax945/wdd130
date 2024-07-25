@@ -291,6 +291,99 @@ th, td{
     padding: 2rem 0rem 0rem 0rem;
 }
 
+.principal_image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+}
+.principal_image h1{
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    z-index: 1;
+    color: #000000;
+    font-size: 4em;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: var(--accent2-color);
+}
+
+.sign{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem 0rem;
+    background-color: var(--accent1-color);
+    font-size: 1.5rem;
+    
+}
+
+.sign legend{
+    font-weight: 700;
+    color: #333;
+    background: var(--secondary-color);
+    font-size: 1.8rem;
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 9px;
+}
+
+.sign div{
+    text-align: right;
+}
+
+.action{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    padding: 0rem 1rem 0rem 0rem;
+    margin: 0rem 0rem;
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+}
+
+.action a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 0.9rem 1rem;
+    background-color: #568EA3;
+    border-radius: 10px;
+    color: #fff;
+}
+.action a:hover{
+    color: var(--accent2-color);
+    text-decoration: underline;
+}
+.action p{
+    padding: 0.5rem;
+    text-align:center;
+}
+
+.white_water{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0em;
+    align-items: center;
+    margin: 0rem 0rem;
+    font-size: 1.5rem;
+    background-color: var(--accent1-color);
+}
+
+.white_water p{
+    text-align: center;
+    padding: 0rem 2rem;
+}
+
+
+
+
+
 
 
 
